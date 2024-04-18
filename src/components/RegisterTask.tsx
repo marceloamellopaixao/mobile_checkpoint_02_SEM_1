@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Button, StyleSheet, TextInput, View } from "react-native"
+import { StyleSheet, View } from "react-native"
 import { useGlobalState } from "../hooks/GlobalState"
 import { Input, IconButton } from "native-base"
 import { Ionicons } from "@expo/vector-icons"

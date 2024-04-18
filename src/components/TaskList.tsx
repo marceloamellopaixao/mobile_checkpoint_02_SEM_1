@@ -48,6 +48,7 @@ function TaskItem({ id, title }: TaskItemProps) {
                     flex={3}
                     value={newTitle}
                     onChangeText={setNewTitle}
+                    color={"white"}
                 />
             ) : (
                 <Text color={'#FFF'} flex={3}>{title}</Text>
